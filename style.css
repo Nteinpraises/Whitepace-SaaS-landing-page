@@ -302,23 +302,73 @@ footer a:focus-visible {
 /* Tablet responsivenes: 768px; */
 
 @media (min-width: 768px) {
+  :root {
+    --page-padding: 24px;
+  }
+
+  h1,
+  h2 {
+    font-size: 3rem;
+  }
+
   .section1 {
     background-image: url("assets/img/spirallinesvertical\(2\).png");
   }
+
+  
   .placeholder {
-    height: 350px;
-    margin-left: 80px;
-    margin-right: 80px;
+    width: 100%;
+    max-width: 550px;
+    height: 360px;
+    margin-inline: auto;
   }
+
+  main > section > p {
+    max-width: 680px;
+  }
+
+  .section6 > *,
+  .section11 > * {
+    max-width: 600px;
+  }
+
+  .section11 h2 {
+    font-size: 3rem;
+  }
+
+  .subsection5 {
+    width: 100%;
+    max-width: 464px;
+    align-self: center;
+  }
+
+  .section9 {
+    background-image: url("assets/img/spirallinesvertical\(2\).png");
+    background-repeat: no-repeat;
+    background-size:105% ;
+    background-position: center;
+  }
+
   .section10 article {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    padding: 24px;
-    border-radius: 8px;
-    background-color: var(--white);
-    box-shadow: 0 8px 24px rgb(0 0 0 / 15%);
+    width: 100%;
+    max-width: 464px;
+    align-self: center;
+  }
+
+  /* footer: left-aligned, bottom bar becomes one row */
+  .section12 {
     text-align: left;
   }
+
+  .section12,
+  .section12 div {
+    align-items: flex-start;
+  }
+
+  .section13 nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
+
