@@ -49,7 +49,7 @@ The project turns a Figma design into a single long page, from the header to the
 3. Check that the page never scrolls sideways. In the console, `document.documentElement.scrollWidth === window.innerWidth` must be `true`.
 4. Press `Tab` and check that buttons and links show a visible focus style.
 5. Check that no image returns a 404 error in the console.
-6. Push the branch and check that the Lint Code Base workflow passes.
+6. Push the branch and check that the Lint Codebase workflow passes.
 
 ## Challenges Faced
 

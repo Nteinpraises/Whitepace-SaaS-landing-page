@@ -107,7 +107,7 @@ footer > section {
 }
 
 main h2 {
-  background-image: url("assets/img/yellowshade.png");
+  background-image: url("../assets/img/yellowshade.png");
   background-repeat: no-repeat;
   background-position: right 100%;
   background-size: 75% 0.68em;
@@ -133,14 +133,14 @@ footer {
 
 .section1 {
   padding-top: 64px;
-  background-image: url("assets/img/spirallinesvertical.png");
+  background-image: url("../assets/img/spirallinesvertical.png");
   background-repeat: no-repeat;
   background-position: center 50%;
   background-size: 100%;
 }
 
 .section2 {
-  background-image: url("assets/img/semicircularspiral.png");
+  background-image: url("../assets/img/semicircularspiral.png");
   background-repeat: no-repeat;
 }
 
@@ -226,7 +226,7 @@ footer {
 }
 
 .section9 {
-  background-image: url("assets/img/spirallinesvertical.png");
+  background-image: url("../assets/img/spirallinesvertical.png");
 }
 
 /* testimonials */
@@ -323,7 +323,7 @@ footer a:focus-visible {
   }
 
   .section1 {
-    background-image: url("assets/img/spirallinesvertical\(2\).png");
+    background-image: url("../assets/img/spirallinesvertical\(2\).png");
   }
 
   .placeholder {
@@ -353,7 +353,7 @@ footer a:focus-visible {
   }
 
   .section9 {
-    background-image: url("assets/img/spirallinesvertical\(2\).png");
+    background-image: url("../assets/img/spirallinesvertical\(2\).png");
     background-repeat: no-repeat;
     background-size: 105%;
     background-position: center;
