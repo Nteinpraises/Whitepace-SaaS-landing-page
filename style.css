@@ -492,6 +492,7 @@ footer a:focus-visible {
   .section2 > :nth-child(5) { grid-area: t2; }
   .section2 > :nth-child(6) { grid-area: p2; }
   .section2 > :nth-child(7) { grid-area: b2; }
+
   .section2 > :nth-child(8) {
     grid-area: m2;
     justify-self: center;
@@ -545,7 +546,6 @@ footer a:focus-visible {
     color: var(--ink);
     border: 1px solid var(--yellow);
   }
-
 
   .section6,
   .section11 {

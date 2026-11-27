@@ -42,26 +42,6 @@ The project turns a Figma design into a single long page, from the header to the
 - The page does not use JavaScript, so there is no slider. The dots under the cards are an image.
 - The page matches the Figma frames closely, but not pixel for pixel.
 
-## Project Structure
-
-```text
-whitepace-landing-page/
-├── index.html
-├── styles/
-│   └── style.css
-└── assets/
-    └── img/
-```
-
-## How to Run
-
-```bash
-git clone https://github.com/Nteinpraises/[repository-name].git
-cd [repository-name]
-```
-
-Open `index.html` in a browser, or start it with the Live Server extension in VS Code.
-
 ## Testing
 
 1. Open the page and use the browser device toolbar (`Ctrl+Shift+M`) at 320px, 768px and 1440px.
@@ -86,11 +66,6 @@ Open `index.html` in a browser, or start it with the Live Server extension in VS
 - Storing colors and fonts in CSS custom properties.
 - Exporting assets from Figma and linking them with relative paths.
 - Writing semantic HTML with alt text that describes the image.
-
-## Links
-
-- Figma design: <https://www.figma.com/design/Ip0YLscX7e46Dxu1cVreDB/Whitepace---SaaS-Landing-Page-(Community)?node-id=9-100>
-- Live page: [live link]
 
 ## Screenshots
 
