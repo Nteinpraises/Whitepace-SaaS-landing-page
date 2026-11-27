@@ -1,4 +1,3 @@
-/* ===== tokens (colors and fonts read from the 320px Figma frame) ===== */
 
 :root {
   --navy: #043873;
@@ -10,8 +9,6 @@
   --font-main: "Inter", sans-serif;
   --page-padding: 16px;
 }
-
-/* ===== base ===== */
 
 *,
 *::before,
@@ -98,7 +95,7 @@ header img {
   height: 28px;
 }
 
-/* ===== sections: one centered column, full width ===== */
+/* ===== All sections, one centered column, full width ===== */
 
 main > section,
 footer > section {
@@ -111,12 +108,11 @@ footer > section {
 }
 
 main h2 {
-  --highlight: var(--yellow);
 
-  background-image: linear-gradient(var(--highlight), var(--highlight));
+  background-image: url("assets/img/yellowshade.png");
   background-repeat: no-repeat;
-  background-position: center 95%;
-  background-size: 55% 0.28em;
+  background-position: right 100%;
+  background-size: 75% 0.68em;
 }
 
 .section1,
@@ -144,8 +140,6 @@ footer {
 .section1 .placeholder {
   margin-top: 76px;
 }
-
-/* project management, work together, extension, customise */
 
 .section4 .placeholder {
   margin-top: 0;
@@ -202,7 +196,6 @@ footer {
   line-height: 1.2;
 }
 
-/* your work everywhere you are */
 
 .section6,
 .section11 {
@@ -216,7 +209,6 @@ footer {
   padding-bottom: 140px;
 }
 
-/* 100% your data */
 
 .section7 h2 {
   margin-top: 64px;
